@@ -1,0 +1,70 @@
+.container {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    padding: 4px;
+    box-sizing: border-box;
+    background: whitesmoke;
+    border-radius: 5px;
+}
+
+.h1 {
+    text-align:center;
+}
+
+.Screen {
+    width: 100%;
+    height: 24%;
+    padding: 4px;
+    font-size: 50px;
+    box-sizing: border-box;
+    background: white;
+    text-align: right;
+}
+
+.row {
+    width: 100%;
+    height: 24%;
+    padding: 4px;
+    box-sizing: border-box;
+    background: whitesmoke;   
+}
+
+.inner-row {
+    width: 25%;
+    height: 100%;
+    float: left;
+    margin: 3 px 7px;
+    padding: 4px;
+    box-sizing: border-box;
+    background: lightgray;
+}
+
+button {
+    border: 0;
+    background: rgba(2, 54, 105, 0.28);
+    color: white;
+    cursor: pointer;
+    float: left;
+    font: Arial;
+    font-size: 30px;
+    font-weight: 100;
+    width: 100%;
+    height: 100%;  
+}
+
+button:hover{
+    background-color: brown;
+}
+.operator{
+    background-color: orangered;
+}
+.BC{
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin: 3 px 7px;
+    padding: 4px;
+    box-sizing: border-box;
+    color : rgba(2, 54, 105, 0.28);
+    }
